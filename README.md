@@ -14,3 +14,10 @@ The application features a user-friendly interface where users can input their p
 
 ![img alt](https://raw.githubusercontent.com/Tridibesh-033/Smart_course_finder_Application/refs/heads/main/ws_cycle.webp)
 
+## User Application
+
+![img alt](https://github.com/Tridibesh-033/Smart_course_finder_Application/blob/main/stm.png?raw=true)
+
+## Streamlit in HuggingFace
+
+![img alt]()
