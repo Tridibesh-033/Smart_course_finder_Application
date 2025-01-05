@@ -19,5 +19,6 @@ The application features a user-friendly interface where users can input their p
 ![img alt](https://github.com/Tridibesh-033/Smart_course_finder_Application/blob/main/stm.png?raw=true)
 
 ## Streamlit in HuggingFace
+Public link: https://huggingface.co/spaces/tridibesh033/course_finder
 
-![img alt]()
+![img alt](https://github.com/Tridibesh-033/Smart_course_finder_Application/blob/main/stm1.png?raw=true)
