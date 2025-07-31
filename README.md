@@ -1,5 +1,6 @@
 ## 🎯 Smart Course Finder
 A powerful course recommendation tool that scrapes online course data, encodes content using NLP, builds a semantic search index, and lets users search relevant courses via an interactive Streamlit app.
+
 ![img alt](https://github.com/Tridibesh-033/Smart_course_finder_Application/blob/main/ws.jpeg?raw=true)
 
 ## 📌 Overview
@@ -15,11 +16,11 @@ It leverages web scraping, semantic embeddings with Sentence Transformers, FAISS
 
 ## 🛠️ Tech Stack
 ### Purpose	Tool / Library
-Web Scraping--requests, BeautifulSoup
-Data Handling--pandas
-NLP Embeddings--sentence-transformers (MiniLM)
-Similarity Index--FAISS
-UI--Streamlit
+- Web Scraping--requests, BeautifulSoup
+- Data Handling--pandas
+- NLP Embeddings--sentence-transformers (MiniLM)
+- Similarity Index--FAISS
+- UI--Streamlit
 
 ## Proposed Methodology
 1. Data Collection: Scraped course details (title, description, and link) from Analytics Vidhya using BeautifulSoup and saved to a CSV file.
@@ -29,20 +30,21 @@ UI--Streamlit
 5. Search Functionality: Implemented a feature to match user queries with top courses using embeddings and the FAISS index.
 
 📂 Project Structure
+
 <img width="406" height="141" alt="{6E484D34-00FD-4D66-BADC-90625F3DD798}" src="https://github.com/user-attachments/assets/e6c530ce-7999-444f-b54f-8a8dabffe233" />
 
 ## 🧪 How It Works
 ### Step 1: Scraping and Indexing
 *python preprocess.py*
-Scrapes course data (titles, descriptions, URLs)
-Generates sentence embeddings
-Builds a FAISS index and stores embeddings
+- Scrapes course data (titles, descriptions, URLs)
+- Generates sentence embeddings
+- Builds a FAISS index and stores embeddings
 
 ### Step 2: Run the App
 *streamlit run main.py*
-#### Type in your interest
+### Type in your interest
 ![img alt](https://github.com/Tridibesh-033/Smart_course_finder_Application/blob/main/stm.png?raw=true)
-#### Get the top 5 semantically relevant courses
+### Get the top 5 semantically relevant courses
 ![img alt](https://github.com/Tridibesh-033/Smart_course_finder_Application/blob/main/stm1.png?raw=true)
 
 ## Streamlit in HuggingFace
@@ -51,13 +53,13 @@ Public link: https://huggingface.co/spaces/tridibesh033/course_finder
 ## 📥 Requirements
 pip install -r requirements.txt
 
-requests
-beautifulsoup4
-pandas
-sentence-transformers
-faiss-cpu
-streamlit
-huggingface_hub
+- requests
+- beautifulsoup4
+- pandas
+- sentence-transformers
+- faiss-cpu
+- streamlit
+- huggingface_hub
 
 ## 📬 Contact
 - Tridibesh Debnath
