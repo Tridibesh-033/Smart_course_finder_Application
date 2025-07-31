@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+pandas
+faiss-cpu
+streamlit
+sentence-transformers
+huggingface_hub
+
